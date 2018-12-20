@@ -1,0 +1,461 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header {
+
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.header-top {
+	width: 1140px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+.header-top-block {
+	text-align: right;
+}
+
+.header-top-menu,
+.header-top-social {
+	display: inline-block;
+}
+
+.header-top-social li {
+	display: flex;
+	font-size: 12px;
+	background: #fabf12;
+	border-radius: 50%;
+	list-style: none;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin: 0 5px;
+}
+
+.header-top-social li a {
+	margin: auto;
+	color: #fff;
+}
+
+.header-top-social li:first-child {
+	margin-left: 0;
+}
+
+.header-top-social li:last-child {
+	margin-right: 0;
+}
+
+.header-top-menu li {
+	padding: 10px;
+	list-style: none;
+	float: left;
+	text-transform: uppercase;
+}
+
+.header-top-menu a {
+	text-decoration: none;
+	color: #313e40;
+}
+
+.header-main {
+	background: #333 url("../images/image background.png") no-repeat center/cover;
+}
+
+.main-nav {
+	width: 1140px;
+	height: 30px;
+}
+
+.main-nav li {
+	float: left;
+	list-style: none;
+	padding: 25px 25px 10px 25px;
+}
+
+.main-nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.main-nav li:hover,
+.main-nav li.active {
+	border-bottom: 2px solid #db4833;
+}
+
+.header-main-content {
+	width: 1140px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hompage-text {
+    width: 35%;
+    color: #FFF;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 50px; 
+}
+
+.header-logo {
+	padding-top:55px; 
+	padding-bottom: 30px;
+}
+
+.header-main .kortol {
+	transform: translateY(25%);
+}
+
+.fab {
+	
+}
+
+main {
+	width: 1140px;
+	margin:  0 auto;
+}
+
+#contact-us {
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+#contact-us p {
+	padding: 15px 0px 25px 0px;
+}
+
+#contact-us span {
+	color: #db4833;
+}
+
+.contact-header h1 {
+	text-transform: uppercase;
+	padding-top: 15px;
+	color: #313e40;
+	font-size: 30px;
+}
+
+#map {
+	width: 100%;
+	height: 500px;
+}
+
+footer {
+	padding-top: 30px;
+	width: 100%;
+	background: #313e40;
+	height: 500px;
+}
+
+.footer-content {
+	color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.footer-address a {
+	color: #FFF;
+}
+
+.footer-links a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+.footer-links a:first-child {
+	border-right: 1px solid #FFF;
+}
+
+.copyright {
+	color: #717778;
+}
+
+.main-top {
+	padding: 60px 60px 0px 80px;
+	height: 350px;
+}
+
+.poplar {
+	width: 30%;
+	float: left;
+}
+
+.adora {
+	float: left;
+	width: 30%;
+}
+
+.ourpotato {
+	padding-top: 30px;
+	text-align: left;
+	float: left;
+	width: 30%;
+	color: #313e40;
+}
+
+.ourpotato p:first-child {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.ourpotato h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+	margin:0px; 
+}
+
+.main-content {
+	background: #fff url("../images/big-image.png") no-repeat left/cover;
+	padding-top: 110px;
+	height: 415px;
+}
+
+.ourphilosophy {
+	
+}
+
+.ourphilosophy h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.main-content-left p {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-content-left {
+	text-align: right;
+	text-transform: uppercase;
+	width: 40%;
+	float: left;
+}
+
+.main-content-right {
+	padding:0px 0px 10px 50px;
+	float: left;
+	width: 27%;
+}
+
+.main-content-right p {
+	line-height: 1.5;
+	font-size: 17px;
+}
+
+.main-content-right a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	background: #313e40;
+	border-radius: 5px;
+}
+
+.main-footer-content {
+	padding-top: 40px;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	color: #313e40;
+	padding-bottom: 30px;
+}
+
+.main-footer-content h1 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-footer-content p {
+	width: 55%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.main-footer-content a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+	background:#313e40;
+	border-radius: 5px;
+}
+
+#brands {
+	
+}
+
+.brands-header {
+	color: #313e40;
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.brands-header h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.brands-header p {
+	padding-top: 20px;
+	width: 435px;
+	margin: 0 auto;
+	font-size: 24px;
+}
+
+.brands-grow {
+	width: 100%;
+	height: 530px;
+	background: url("../images/Illustration1.jpg") no-repeat center/cover;
+}
+
+.brands-grow-content {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.brands-grow-image {
+	float: left;
+}
+
+.brands-grow-text {
+	width: 600px;
+	padding: 50px;
+	float: left;
+	text-align: center;
+	color: #FFF;
+}
+
+.brands-grow-text h3 {
+	font-size: 30px;
+}
+
+.brands-grow-text h1 {
+	font-size: 90px;
+}
+
+.brands-grow-text p {
+	padding: 30px;
+	font-size: 24px;
+}
+
+.brands-grow-text a {
+	background: #dc4834;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.brands-adora {
+	width: 100%;
+	height: 530px;
+	background: url("../images/Adora-potato.jpg") no-repeat center/cover;
+}
+
+.brands-adora-image {
+	float: left;
+}
+
+.brands-adora-text {
+	width: 600px;
+	padding: 50px;
+	float: left;
+	text-align: center;
+}
+
+.brands-adora-text h1 {
+	padding-top: 90px;
+	font-size: 50px;
+	color: #313e40;
+}
+
+.brands-adora-text p {
+	padding: 30px;
+	color: #313e40;
+	font-size: 24px;
+}
+
+.brands-adora-text a {
+	background: #dc4834;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+#seed {
+	padding-top: 50px;
+}
+
+.seed-content {
+	height: 500px;
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.seed-left {
+	padding-left: 20px;
+	margin-top: 20px;
+	float: left;
+	width: 300px;
+	height: 100px;
+	border-left:  1px solid #db4833;
+}
+
+.seed-left li {
+	list-style-type: none;
+}
+
+.seed-left a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #313e40;
+}
+.seed-left li:before{
+	vertical-align: middle;
+	padding-top: 5px;
+	color: #db4833;
+	font-size: 25px;
+	content: "\2022";
+}
+.seed-right {
+	float: left;
+	width: 700px;
+}
+
+.seed-header h1 {
+	color: #313e40;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.seed-header p:first-of-type {
+	font-size: 24px;
+}
+
+.seed-right p {
+	color: #313e40;
+	padding: 20px 0px;
+}
+
+.seed-right-top {
+	border-bottom: 2px solid #fdba0c;
+}
